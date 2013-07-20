@@ -1,0 +1,55 @@
+
+Hi Abhishek,
+
+ Version.xml
+
+<play id="1">
+<versionlist>
+        <version id="1" name="version1"/>
+        <version id="2"  name="version2"/>
+        <version id="3"  name="version3"/>
+        <version id="4"  name="version4"/>
+         <version id="5"  name="version5"/>
+</versionlist> 
+</play>
+
+Like There is a specific play with id 1 can have several versions
+
+so this xml will give you the list of versions
+and we will store this into our database
+
+in this there is version id and version name .
+version name will relate to the HTML file name of that version.
+
+
+
+Like when when we will open version 1 HTML file then a audio.xml file should be there with that HTML file with attached clip id in HTML file.
+
+
+
+ Audio.xml in following format
+
+<audioclipslist>
+        <clip id="101" from="0" to="13"/>
+        <clip id="102" from="13" to="25"/>
+        <clip id="103" from="25" to="43"/>
+        <clip id="104" from="43" to="60"/>
+</audioclipslist>
+
+This format include audio clip  where clip id 101 relate to HTML 
+like this
+<a href="101"><img src="play.jpg" style="max-width: 30px" alt="Image"/></a> .
+we will store Audio.xml information in database and when a clip added With HTML
+then by using Clip id we play that clip from specific position to other position.
+
+Like 
+
+when we tap in HTML on position  <a href="101"><img src="play.jpg" style="max-width: 30px" alt="Image"/></a>
+
+then by using clip id 101 we can specify that clip will play From time 0 second to 13 second.
+
+or when we  tap in HTML on position  <a href="102"><img src="play.jpg" style="max-width: 30px" alt="Image"/></a>
+then clip id 102 will play from 13 second to 25 second
+
+and so on..
+
