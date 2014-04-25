@@ -1,0 +1,7 @@
+{
+"Plays": [
+{ "playid":"1","playname":"THE BLACK CROOCK" , "imageurl":"http:www.nypl.com","author":"Charles M. Barras","authorinfo":"Author of The Hypochondriac, Modern Saint, Fairy of Home, Woman in White, Bibio, Injured Orphan, The Great Goose Case, etc., etc., etc." },
+{ "playid":"2","playname":"Dummy 1" , "imageurl":"http:www.nypl.com","author":"Charles M. Barras","authorinfo":"Author of The Hypochondriac, Modern Saint, Fairy of Home, Woman in White, Bibio, Injured Orphan, The Great Goose Case, etc., etc., etc." },
+{ "playid":"3","playname":"Dummy 2" , "imageurl":"http:www.nypl.com","author":"Charles M. Barras","authorinfo":"Author of The Hypochondriac, Modern Saint, Fairy of Home, Woman in White, Bibio, Injured Orphan, The Great Goose Case, etc., etc., etc." },
+]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<playlist>
+<play id="1">
+<versionlist>
+        <version id="1" name="version1"  htmlname="Play1_v1.html" audioname="audio1.xml" />
+        <version id="2" name="version2"  htmlname="Play1_v2.html" audioname="audio2.xml"/>
+        <version id="3" name="version3"  htmlname="Play1_v3.html" audioname="audio3.xml"/>
+       
+</versionlist> 
+</play>
+    
+<play id="2">
+    <versionlist>
+        <version id="1" name="version1"  htmlname="Play1_v1_2.html" audioname="audio1.xml" />
+    </versionlist>
+</play>
+    
+<play id="3">
+    <versionlist>
+        <version id="1" name="version1"  htmlname="Play1_v1_3.html" audioname="audio1.xml" />
+        <version id="2" name="version2"  htmlname="Play1_v2_3.html" audioname="audio2.xml"/>
+        <version id="3" name="version3"  htmlname="Play1_v3_3.html" audioname="audio3.xml"/>
+        
+    </versionlist>
+</play>
+    
+</playlist>

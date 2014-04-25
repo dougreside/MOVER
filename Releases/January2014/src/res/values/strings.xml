@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HomeActivity!</string>
+    <string name="app_name">NYPL</string>
+    <string name="full_text"><u>Full Text</u></string>
+    <string name="action_delete_desc">Click here to delete item.</string>
+    <string name="action_delete_title">Delete</string>
+    <color name="listcolor">#5c0005</color>
+    
+
+</resources>
